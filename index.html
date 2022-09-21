@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/db5d8c41b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="fluid-container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="https://thumbs.dreamstime.com/z/stethoscope-vector-icon-illustration-template-logo-design-icons-flat-web-sign-symbol-app-ui-195802045.jpg" class="image" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#sectionMywork" id="sectionMywork">Working</a>
+                    <a class="nav-link" href="#">Daily</a>
+                    <a class="nav-link" href="#">Weekly</a>
+                    <a class="nav-link" href="#">Monthly</a>
+                    <a class="nav-link" href="#">Yearly</a>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="bg-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h1 class="heading mt-5">Design and implementation of prototype for stress monitoring armband using raspberryi pi</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div id="sectionMywork">
+                        <p class="paragraph1">Abstract:-</p>
+                        <p class="paragraph2">People who are working alone are cannot call for help when they suddenly get any illness or injury that results the delay responses and leads to the problems. This IoT stress system will be tracking the health of a person and the data via WiFi. The sensor tracks the real time data, and gives the alerts via speaker. This device is useful for monitoring workers and their stress. People now-a-days having more stress because of workload from stressful environments like work. Being stress results with heart disease, asthma, obesity, and diabetes. In this paper, we present a stress monitoring system that collects the data of a person and when ever the person is having the stress, there comes an alert via speaker. By giving the appropriate commands when ever the person is being stressed the voice alert will be produced so that the person can be aware of his own stress and he will take some relaxation or he will take some break from the work load pressure. The sensor which we will be collecting the real time data that data would be visible in the website repot as an weekly, monthly, yearly, How much the person is having the stress as part of the daily life can be viewed in the website.</p>
+
+
+                        <p class="paragraph1">Introduction:-</p>
+                        <p class="paragraph2">In contrast to the environments in response to which our stress reaction system evolved, people nowadays exhibit more stress due to the increased mental workload from stressful environments such as work. Stress, one type of emotion, can be categorized into two classes: short-term/or long-term/chronic. Short-term stress is caused by pressures and demands in the recent past or near future. As described above, another approach to assessing the emotion of stress is to monitor the activation of the autonomic nervous system (ANS), which provides an index of the physiological aspect of the emotional response. Stress activates the ANS, and this activation can be detected through monitoring the changes in physiological signals. Several physiological signs are correlating with stress such as heart rate, heart rate variability, respiration rate, blood pressure, galvanic skin response. The current state of sensor technology allows us to develop systems measuring physiological signals reﬂecting stress levels. Monitoring physiological signals using wearable sensors enables the continuous tracking of personal stress status. Stress monitoring systems are currently moving from using traditional physiological sensors such as electroencephalography (EEG) and electrocardiogram (ECG) towards using low-cost and comfortable optical sensors such as photoplethysmogram (PPG) and galvanic skin response (GSR) which are often used in wristbands or smart rings. </p>
+
+                        <p class="paragraph1">Existing system:-</p>
+                        <p class="paragraph2">The Existing system consists of an stress monitoring evaluated in both controlled as well as everyday settings. The system collects various physiological signals(ECG,PPG, and GSR) collected by wearable sensors and building machine-learning based stress assessment models based on these signals. These physiological signals are collected using noninvasive sensors in controlled and everyday settings.</p>
+
+                        <p class="paragraph1">Proposed System:-</p>
+                        <p class="paragraph2">We are going to propose the system, when the person is too much stressed where the alert’s will be come from the speakers and We display the time wall paper date and the monitored data. We set some threshold value if that threshold value is increased then the speaker gives the alert. The data which is collected by the sensor will be pushed by the raspberry pi, we will create a domain and the data base for storing the data for monthly, annually, daily. </p>
+
+
+                        <p class="paragraph1">Block Diagram:-</p>
+                        <img src="https://res.cloudinary.com/dd222ggop/image/upload/v1663749885/Blank_board_3_vrhkcg.jpg" class="image1" />
+
+
+
+
+
+                        <p class="paragraph1">Components:-</p>
+                        <p class="paragraph2">
+                            • Raspberry Pi 3 Model B <br />
+                            • Speed Studio Grove Speaker Module <br />
+                            • Waveshare 3.2 Inch TFT LCD Touch Screen Display V4.0 for Raspberry Pi <br />
+                            • Heart Rate Pulse Sensor Board 24inch Cable
+                        </p>
+
+
+                        <p class="paragraph1">Raspberry Pi:-</p>
+                        <p class="paragraph2">The Raspberry Pi is a very cheap computer that runs Linux, but it also provides a set of GPIO (general purpose input/output) pins, allowing you to control electronic components for physical computing and explore the Internet of Things (IoT). The GPIO pins allow the Raspberry Pi to control and monitor the outside world by being connected to electronic circuits. The Pi is able to control LEDs, turning them on or off, run motors, and many other things. It's also able to detect whether a switch has been pressed, the temperature, and light. Raspberry pi as an small cpu small size like atm card size we can do lot of programming and it is invented in 2013. Applications of Raspberry pi is Drones and 3D printing and Robotics. We don’t need to attach the Ram we just need to insert the Memory Card.</p>
+                        <img src="https://images.prismic.io/rpf-products/877fb653-7b43-4931-9cee-977a22571f65_3b%20Angle%202%20refresh.jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&w=799&h=533" class="image3"/>                        <p class="paragraph1">Speed Studio Grove Speaker Module:-</p>
+                        <p class="paragraph2">We can adjust the volume feature and this module provides the amplification and voice outputs. This small Grove module offers the appropriate solution audio signaling and sound generation it will have the build-in potentiometer to adjust loudness and to clear sound out of a micro-controller. We can add this speaker to the Raspberry pi so that we can generate different tones from this speaker with different input frequencies. We just have to code the music into the Raspberry pi and give our own commands.</p>
+                        <img src="https://files.seeedstudio.com/wiki/Grove-Speaker/img/Grove_Speaker_01.jpg" class="image3"/>
+
+
+                        <p class="paragraph1">Waveshare 3.2 Inch TFT LCD Touch Screen Display V4.0 for Raspberry pi:-</p>
+                        <p class="paragraph2">This 3.2 Inch TFT LCD Touch Screen for Raspberry pi V4.0 display has a resistive touchscreen attached to it already, so we can detect finger presses anywhere on the screen. This display has a controller built into it with RAM buffering, so that we don’t need to do any work in the microcontroller.
+                            This uses the SPI protocol to communicate with the main processor. And it is mounted directly to the GPIO pins and it does’nt required any external Power source.
+                        </p>
+                        <img src="https://www.waveshare.com/w/thumb.php?f=3.2inch-RPi-LCD-B_l.jpg&width=450" class="image3"/>
+
+
+                        <p class="paragraph1">Heart Rate Pulse Sensor Board 24 inch Cable:-</p>
+                        <p class="paragraph2">Heart rate data can be really useful wheather you’re designing an exercise routine, studying your activity or anxiety levels. The problem is that heart rate can be difficult to measure. The pulse Sensor is a plug-and-play heart-rate sensor for Raspberry pi. This essentially combines a simple optical heart rate sensor with amplification and noise cancellation circuitary making it fast and easy to get reliable pulse readings. The pulse sensor working principle is very simple. This sensor has two surfaces, on the first surface, the light-emitting diode & ambient light sensor is connected. Similarly, on the second surface, the circuit is connected which is accountable for the noise cancellation& amplification. Transmission types measure pulse waves by emitting red or infrared light from the body surface and detecting the change in blood flow during heart beats as a change in the amount of light transmitted through the body. This method is limited to areas where light can easily penetrate, such as the fingertip or earlobe.</p>
+                        <img src="https://cdn11.bigcommerce.com/s-3fd3md1ghs/images/stencil/1280x1280/products/29662/11329/SEN-11574__54970.1577088448.jpg?c=2" class="image3"/>
+
+
+                        <p class="paragraph1">Why are we choosing Raspberry instead of ESP32:-</p>
+                        <p class="paragraph2">Raspberry pi can be used as a Portable Computer. It has Faster Processor and supports all type of codes. We can connect the multiple sensors and vast peripheral support and it has 26 GPIO Pins and can be easily interfaced with hardware. Why we are choosing why not ESP 32 though we have I2c pin for ESP 32 it can only have static Mp3 Module, What ever we are storing the MP3 file into the memory card that will be operated by the speaker which is connecting to the ESP 32. We cannot give the commands dynamically according to the alert’s. So By using the raspberry pi we can be able play the sound dynamically and raspberry pi having the more processing power it adds some advantage and work efficiently. Raspberry pi pushes the data into the cloud for every 10 seconds or for every 30 seconds based upon our requirement.</p>
+
+
+                        <p class="paragraph1">Pulse Analysis</p>
+                        <img src="https://ak.picdn.net/shutterstock/videos/11595830/thumb/1.jpg" class="image2" />
+
+
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class=" d-flex flex-column justify-content-left">
+            <div class="card1">
+                <i class="fa-solid fa-heart-pulse"> Heart rate</i>
+            </div>
+        </div>
+
+        <div class=" d-flex flex-row justify-content-left">
+            <div class="card2">
+                <i class="fa-solid fa-temperature-three-quarters">Body Temperature</i>
+
+            </div>
+        </div>
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

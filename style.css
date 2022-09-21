@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.bg-container {
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.heading {
+    font-family: roboto;
+    font-size: 40px;
+    color: red;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+.paragraph1 {
+    font-family: roboto;
+    font-size: 25px;
+    color: blue;
+    text-align: left;
+    padding: 1px;
+    font-weight: bold;
+
+}
+
+.paragraph2 {
+    font-family: roboto;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    padding: 1px;
+    font-weight: bold;
+
+}
+
+.card1 {
+    background-color: transparent;
+    height: 90px;
+    width: 400px;
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    color: #0c70eb;
+}
+
+
+.card2 {
+    background-color: transparent;
+    height: 90px;
+    width: 400px;
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    color: #0c70eb;
+}
+
+.card3 {
+    background-color: transparent;
+    height: 90px;
+    width: 400px;
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    color: #0c70eb;
+}
+
+.card4 {
+    background-color: transparent;
+    height: 90px;
+    width: 400px;
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    color: #0c70eb;
+}
+
+
+
+.image {
+    height: 35px;
+    width: 35px;
+}
+
+.image2 {
+    height: 400px;
+    width: 700px;
+}
+
+
+.image3 {
+    height: 350px;
+    width: 350px;
+}
+
+.image1 {
+    height: 550px;
+    width: 500px;
+}
